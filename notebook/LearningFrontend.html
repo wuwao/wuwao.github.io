@@ -1,12 +1,69 @@
 <h1>FrontEnd Learning</h1> 
+
 <h2>HTML</h2>
-<h3>element</h3>
-<p>Block-level elements <br/> 
-    a new block-level element appear on new line.<br/>
-    for example: 'p'.
+
+<h3>1. element</h3>
+
+<!-- P.S. In HTML5 block & inline elements' define are different. 
+            But just learn them like these now.
+-->
+<p><em>block elements:</em><br/> 
+    &emsp;a new block-level element appear on new line.<br/>
+    <ul>for example: 'p'.</ul>
+    <p>one paragraph</p>
+    <p>the other paragraph</p>
 </p>
 
-<p>inline elements <br/>
-    new inline element after last element.<br/>
-    for example: 'a', 'em'
+<p><em>inline elements:</em><br/>
+    &emsp;new inline element after last element, on same line.<br/>
+    <ul> example: 'a', 'em', 'strong'.</ul>
+    <p>one paragraph <strong> one strong word </strong> still same paragraph.</p>
+</p>
+
+<p><em>empty / void element</em><br/>
+    &emsp;no closing tag<br/>
+    <ul>for example: 'img'.</ul>
+    <p>&#60;img src&#61;&#34;https&#58;&#47;&#47;&#46;&#46;&#46;&#34;&#62;)</p>
+</p>
+
+
+<h3>2. attribute</h3>
+<p>
+    &emsp;extra information about element</br>
+    <ul>for example: 'class'.</ul>
+    <p>&#60;p class&#61;&#34;anyclass&#34;&#62; a paragraph with one attribute&#60;&#47;p&#62;</p>
+    <ul>for example: 'a' is hyperlink, it has three attributes.(href/title/target) </ul>
+    <a href="https://www.mozilla.org/" title="The Mozilla Homepage" target="_blank">Mozilla Homepage</a>
+</p>
+
+<p>
+    <em>boolean attribute</em>
+    <ul>for example: 'disable'.</ul>
+    &#60;input type&#61;&#34;text&#34; disabled&#61;&#34;disabled&#34;&#62;</br>
+    <input type="text" disabled="disabled">
+    as same as </br>
+    &#60;input type&#61;&#34;text&#34; disabled&#62;</br>
+    <input type="text" disabled>
+    
+</p>
+<h3>entire HTML page</h3>
+<p>
+    &#60;!DOCTYPE html&#62;</br>
+    &#60;html&#62;</br>
+        &#60;head&#62;</br>
+            &#60;meta charset&#61;&#34;utf-8&#34;&#62;</br>
+            &#60;title&#62;My test page&#60;&#47;title&#62;</br>
+        &#60;&#47;head&#62;</br>
+        &#60;body&#62;</br>
+            &#60;p&#62;This is my page&#60;&#47;p&#62;</br>
+        &#60;&#47;body&#62;</br>
+    &#60;&#47;html&#62;</br>
+</p>
+<p>
+    <ul>'!DOCTYPE html' is a standard, just write it down, don't ask why.</ul>
+    <ul>'html' wrap the all page, just write it down.</ul>
+    <ul>'head' is the content don't display on the page.</ul>
+    <ul>'meta charset="UTF-8"' include most characters from the vast majority of human written languages</ul>
+    <ul>'title' is the title of the page.</ul>
+    <ul>'body' is the content display on the page.</ul>
 </p>
