@@ -1,8 +1,10 @@
+
 Markdown 语法规则
+
         标题（Heading）
-                        # H1
-                        ## H2
-                        ### H3
+                        #H1
+                        ##H2
+                        ###H3
         粗体（Bold）	
                         **bold text**
         斜体（Italic）	        
