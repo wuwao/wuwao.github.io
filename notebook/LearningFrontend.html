@@ -1,5 +1,54 @@
 <h1>FrontEnd Learning</h1> 
 
+<!-- 
+    通过在 Html 内嵌 Markdown.js 方法来使用 markdown 语法。
+    灵感来自：https://www.zhihu.com/question/53311539/answer/1837760394
+-->
+<body>
+    <code markdown>
+    ## 在HTML中使用markdown
+    语法规则
+        标题（Heading）
+                        # H1
+                        ## H2
+                        ### H3
+        粗体（Bold）	
+                        **bold text**
+        斜体（Italic）	        
+                        *italicized text*
+        引用块（Blockquote）	
+                        > blockquote
+        有序列表（Ordered List）
+                        1. First item
+                        2. Second item
+                        3. Third item
+        无序列表（Unordered List）	
+                        - First item
+                        - Second item
+                        - Third item
+        代码（Code）	
+                        `code`
+        分隔线（Horizontal Rule）	
+                        ---
+        链接（Link）	
+                        [title](https://www.example.com)
+        图片（Image）	
+                        ![alt text](image.jpg)
+
+    </code>
+    
+    <script src="marked.min.js"></script>
+    
+    <script>
+        var m=document.querySelectorAll('code[markdown]');
+        
+        for(var i=0;i<m.length;i++){
+            m[i].outerHTML='<div>'+marked(m[i].innerHTML)+'</div>';
+        }
+    </script>
+
+</body>
+
 <h2>HTML</h2>
 
 <h3>1. element</h3>
@@ -23,7 +72,7 @@
 <p><em>empty / void element</em><br/>
     &emsp;no closing tag<br/>
     <ul>for example: 'img'.</ul>
-    <p>&#60;img src&#61;&#34;https&#58;&#47;&#47;&#46;&#46;&#46;&#34;&#62;)</p>
+    <p>&#60;img src&#61;&#34;https&#58;&#47;&#47;&#46;&#46;&#46;&#34;&#62;</p>
 </p>
 
 
