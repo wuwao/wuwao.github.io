@@ -8,11 +8,11 @@ body {
 }
 
 /* 主要内容一列 */
-.entire {
+.content {
     margin-left: auto;
     margin-right: auto;
     min-width: 240px;
-    max-width: 800px;
+    max-width: 760px;
     display: grid;
     row-gap: 2rem;
     text-align: center;   
@@ -20,8 +20,6 @@ body {
 
 /* Khun's blog 标题 */
 .title {
-    /* text-align: center; */
-    /* background-color: bisque; */
     text-decoration-line: underline;
     text-decoration-color: rgba(255, 220, 100, 1);
     text-decoration-style:solid;
@@ -32,10 +30,6 @@ body {
 /* Articles About 标题 */
 .category {
     text-decoration-line: none;
-    /* 
-    text-decoration-color: rgba(186, 232, 232, 1);
-    text-decoration-style: solid;
-    text-decoration-thickness: 0.4rem; */
     font-size:larger;
     color: black;
     margin-right: 4%;
@@ -50,12 +44,10 @@ body {
     border-width: 2px;
     border-color: #482936;
     border-style:solid none none none;
-    /* background-color:aliceblue; */
 }
 
 /* 正文内链接 */
 .link {
-    /* text-align: center; */
     text-decoration-line: underline;
     text-decoration-color: rgba(186, 232, 232, 1);
     text-decoration-style: solid;
@@ -76,6 +68,7 @@ body {
 .about {
     /* padding-left: 20%;
     padding-right: 20%; */
+    font-family: bree serif;
     text-align: left;
     font-size: medium;
     line-height: 2rem;
@@ -84,6 +77,5 @@ body {
 
 
 .copyright {
-    /* text-align: center; */
     font-size: small;
 }
