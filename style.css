@@ -3,12 +3,13 @@
 body {
     font-family: bree serif, lxgw wenkai gb, sans-serif;
     -webkit-font-smoothing: antialiased;
-    margin:20px 20px;
     background-color: #f9f4dc;
 }
 
 /* 主要内容一列 */
 .content {
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
     min-width: 240px;
