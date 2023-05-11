@@ -1,9 +1,15 @@
+/* 引入外部字体 */
+@font-face{
+    font-family: 'lxgw wenkai';
+    src : url('fonts/LXGWWenKaiLite-Regular.ttf');
+}
 
 /* 整个页面 */
 body {
-    font-family: bree serif, lxgw wenkai gb, sans-serif;
+    /* font-family: Source Han Sans CN; */
+    font-family: lxgw wenkai;
     -webkit-font-smoothing: antialiased;
-    background-color: #f9f4dc;
+    background-color: #F9F5DE 
 }
 
 /* 主要内容一列 */
@@ -70,6 +76,7 @@ body {
     /* padding-left: 20%;
     padding-right: 20%; */
     font-family: bree serif;
+    font-weight: 600;
     text-align: left;
     font-size: medium;
     line-height: 2rem;
