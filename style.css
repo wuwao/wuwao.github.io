@@ -6,8 +6,7 @@
 
 /* 整个页面 */
 body {
-    /* font-family: Source Han Sans CN; */
-    font-family: lxgw wenkai;
+    font-family: sans-serif;
     -webkit-font-smoothing: antialiased;
     background-color: #F9F5DE 
 }
@@ -62,6 +61,19 @@ body {
     color: black;
 }
 
+
+/* About 正文格式, 即 index 页 */
+.about {
+    /* padding-left: 20%;
+    padding-right: 20%; */
+    font-family: lxgw wenkai;
+    font-weight: 600;
+    text-align: left;
+    font-size:large;
+    line-height: 2rem;
+}
+
+
 /* Articles 正文格式 */
 .articles {
     padding-left: 15%;
@@ -70,19 +82,6 @@ body {
     font-size: medium;
     line-height: 2rem;
 }
-
-/* About 正文格式 */
-.about {
-    /* padding-left: 20%;
-    padding-right: 20%; */
-    font-family: bree serif;
-    font-weight: 600;
-    text-align: left;
-    font-size: medium;
-    line-height: 2rem;
-}
-
-
 
 .copyright {
     font-size: small;
